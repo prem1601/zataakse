@@ -1,6 +1,6 @@
 ## Zataakse Assignment
 
-Starting the app-
+Starting the app -
  Open terminal
   - Front End
     - Go to frontend folder and run command "npm i"
