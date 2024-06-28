@@ -2,7 +2,7 @@ const Shimmer = () => {
   const arr = Array.from(Array(8).keys());
 
   return (
-    <div className="h-[40rem]">
+    <>
       <div className="px-6 py-4 max-w-screen-xl mx-auto">
         <div className="flex flex-wrap">
           <div className=" basis-1/4">
@@ -53,7 +53,7 @@ const Shimmer = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
