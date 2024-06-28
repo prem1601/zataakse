@@ -29,7 +29,7 @@ function App() {
 
   return (
     <ProductContext.Provider value={{ products }}>
-      <div className="container">
+      <div className="container mx-auto">
         <Header />
         {products.length > 0 ? <ProductListing /> : <Shimmer />}
         <Footer />
